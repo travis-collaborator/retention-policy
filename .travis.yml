@@ -7,12 +7,12 @@ dist: focal
 install: skip
 
 stages:
-  - name: test
+  - name: pull-request
 
 jobs:
   include:
-    - stage: test
-      name: testing
+    - stage: pull-request
+      name: pull-request
       script: true
 
 after_success:
