@@ -7,11 +7,11 @@ dist: focal
 install: skip
 
 stages:
-  - name: test
+  - name: test1
 
 jobs:
   include:
-    - stage: test
+    - stage: test1
       name: testing
       script: true
 
